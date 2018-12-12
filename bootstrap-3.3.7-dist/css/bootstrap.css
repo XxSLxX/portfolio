@@ -6754,11 +6754,6 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-body{
-    background-image: url("images/freeimg01.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 html, body, head, header{
     background-color: black;
 }
@@ -6766,7 +6761,16 @@ h1,h2,h4,h7,h8,h9{
   color:white;
 }
 body{
-	font-family: "Marker Felt", "Comic Sans MS", fantasy;
-	color: black;
-	text-shadow: 1px 1px #5e697a;
+	font-family: "Marker Felt", fantasy;
+	color:black;
 }
+
+/*# Test Code */
+.backboy {
+			background-image: url(images/forest.jpg);
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			height:710px;
+		}
